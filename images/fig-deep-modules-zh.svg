@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" font-family="PingFang TC, Noto Sans TC, Microsoft JhengHei, sans-serif">
+<title>淺模組與 deep module 的測試方式對照</title>
+<desc>左右對照。左邊是淺模組：一排四個小模組，各有一條線連到同一個測試，測試綁在每一行實作上，內部一改測試跟著改。右邊是 deep module：一個大模組，內部以淡灰表示對測試隱藏，只經由一個窄窄的入口連到測試，內部可以隨便改，測試不用跟著改。底部標註影片時間 55:25–56:37。</desc>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#444"/></marker></defs>
+<rect width="1000" height="400" fill="#fbfaf7"/>
+<path d="M495 40 L495 360" stroke="#c9c8c0" stroke-width="2" fill="none" stroke-dasharray="6 4"/>
+<text x="250" y="50" font-size="21" fill="#222222" font-weight="bold" text-anchor="middle">淺模組</text>
+<text x="740" y="50" font-size="21" fill="#222222" font-weight="bold" text-anchor="middle">deep module</text>
+<rect x="45" y="90" width="80" height="44" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<path d="M85 134 L220 220" stroke="#444" stroke-width="2" fill="none"/>
+<rect x="155" y="90" width="80" height="44" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<path d="M195 134 L240 220" stroke="#444" stroke-width="2" fill="none"/>
+<rect x="265" y="90" width="80" height="44" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<path d="M305 134 L260 220" stroke="#444" stroke-width="2" fill="none"/>
+<rect x="375" y="90" width="80" height="44" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<path d="M415 134 L280 220" stroke="#444" stroke-width="2" fill="none"/>
+<rect x="200.0" y="220" width="100" height="44" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="250" y="247.6" font-size="16" fill="#222222" font-weight="bold" text-anchor="middle">測試</text>
+<rect x="600" y="80" width="280" height="110" rx="8" fill="#ececea" stroke="#b5b4aa" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="733" y="184" width="14" height="40" rx="3" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="1"/>
+<rect x="690.0" y="224" width="100" height="44" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="740" y="251.6" font-size="16" fill="#222222" font-weight="bold" text-anchor="middle">測試</text>
+<text x="250" y="306" font-size="15" fill="#222222" font-weight="bold" text-anchor="middle">一堆薄模組，測試綁在每一行實作上</text>
+<text x="250" y="334" font-size="15" fill="#d9822b" text-anchor="middle">內部一改，測試跟著改</text>
+<text x="740" y="306" font-size="15" fill="#222222" font-weight="bold" text-anchor="middle">一大塊模組，內部對測試隱藏</text>
+<text x="740" y="334" font-size="15" fill="#222222" text-anchor="middle">只經由窄窄的入口測</text>
+<text x="740" y="362" font-size="15" fill="#4f8a5b" text-anchor="middle">內部可以隨便改，測試不用跟著改</text>
+<text x="980" y="380" font-size="13" fill="#555555" text-anchor="end">55:25–56:37</text>
+</svg>

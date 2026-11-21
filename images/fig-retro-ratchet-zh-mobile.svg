@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450" width="500" height="450" role="img" font-family="PingFang TC, Noto Sans TC, Microsoft JhengHei, sans-serif">
+<title>人工審查評論轉成自動檢查的循環</title>
+<desc>環狀流程，順時針：人工審查留下評論（41:44），retro 回頭看 session 與 PR（42:34），試著改寫成自動檢查（型別、測試、linter；51:12），下次 agent 被擋下；再以虛線回到人工審查留下評論。環旁另有一個獨立方塊，檢查變慢，也請 agent 加速（51:44），以虛線連到試著改寫成自動檢查。</desc>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#444"/></marker></defs>
+<rect width="500" height="450" fill="#fbfaf7"/>
+<rect x="34" y="20" width="440" height="78" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="254.0" y="40" font-size="12" fill="#555555" text-anchor="middle">41:44</text>
+<text x="254.0" y="66" font-size="17" fill="#222222" font-weight="bold" text-anchor="middle">人工審查留下評論</text>
+<path d="M254 100 L254 128" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="34" y="130" width="440" height="78" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="254.0" y="150" font-size="12" fill="#555555" text-anchor="middle">42:34</text>
+<text x="254.0" y="176" font-size="16" fill="#222222" font-weight="bold" text-anchor="middle">retro 回頭看 session 與 PR</text>
+<path d="M254 210 L254 238" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="34" y="240" width="250" height="90" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="159.0" y="260" font-size="12" fill="#555555" text-anchor="middle">51:12</text>
+<text x="159.0" y="285" font-size="16" fill="#222222" font-weight="bold" text-anchor="middle">試著改寫成自動檢查</text>
+<text x="159.0" y="307" font-size="12" fill="#555555" text-anchor="middle">型別、測試、linter</text>
+<rect x="314" y="240" width="160" height="90" rx="8" fill="#fff7ec" stroke="#d9822b" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="394.0" y="260" font-size="12" fill="#555555" text-anchor="middle">51:44</text>
+<text x="394.0" y="288.1" font-size="13" fill="#222222" font-weight="bold" text-anchor="middle"><tspan x="394.0" y="288.1">檢查變慢，也請 </tspan><tspan x="394.0" y="307.1">agent 加速</tspan></text>
+<path d="M286 285 L312 285" stroke="#666" stroke-width="2.5" fill="none" stroke-dasharray="6 4"/>
+<path d="M159 332 L159 360" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="34" y="362" width="440" height="66" rx="8" fill="#ffffff" stroke="#4f8a5b" stroke-width="2.5"/>
+<text x="254.0" y="400.95" font-size="17" fill="#222222" font-weight="bold" text-anchor="middle">下次 agent 被擋下</text>
+<path d="M32 395 L14 395 L14 59 L32 59" stroke="#666" stroke-width="2.5" fill="none" stroke-dasharray="6 4" marker-end="url(#ah)"/>
+</svg>

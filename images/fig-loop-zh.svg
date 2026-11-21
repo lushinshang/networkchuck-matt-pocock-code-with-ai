@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 410" width="1120" height="410" role="img" font-family="PingFang TC, Noto Sans TC, Microsoft JhengHei, sans-serif">
+<title>從想法到 merge 與 retro 的流程</title>
+<desc>想法先進入 grill-with-docs，逐題追問並讀術語表與 ADR；之後分兩路：小功能直接 implement，大功能先寫成 spec、拆成 ticket，再用 implement-spec 以平行子 agent 各在 worktree 實作。兩路匯合到 code review（spec review、standards review），接著人工審查（看 merge danger）、merge、retro；retro 把檢討寫回 standards 與自動檢查，以虛線箭頭回到術語表、ADR、standards。各節點旁標有影片時間。</desc>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#444"/></marker></defs>
+<rect width="1120" height="410" fill="#fbfaf7"/>
+<rect x="30" y="60" width="140" height="84" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="100.0" y="107.95" font-size="17" fill="#222222" font-weight="bold" text-anchor="middle">想法</text>
+<path d="M172 102 L228 102" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="230" y="60" width="240" height="84" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="350.0" y="80" font-size="12" fill="#555555" text-anchor="middle">12:36</text>
+<text x="350.0" y="105" font-size="17" fill="#222222" font-weight="bold" text-anchor="middle" font-family="Menlo, Consolas, monospace">grill-with-docs</text>
+<text x="350.0" y="127" font-size="12" fill="#555555" text-anchor="middle">先逐題追問；讀術語表與 ADR</text>
+<rect x="230" y="176" width="240" height="44" rx="8" fill="#f4f3ee" stroke="#b5b4aa" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="350" y="203" font-size="14" fill="#222222" text-anchor="middle">術語表、ADR、standards</text>
+<path d="M472 102 L500 102" stroke="#444" stroke-width="2" fill="none"/>
+<path d="M500 102 L500 67 L517 67" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<path d="M500 102 L500 192 L517 192" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="520" y="40" width="270" height="54" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="655.0" y="72.6" font-size="16" fill="#222222" font-weight="bold" text-anchor="middle">小功能：implement</text>
+<rect x="520" y="150" width="270" height="84" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="655.0" y="170" font-size="12" fill="#555555" text-anchor="middle">27:24</text>
+<text x="655.0" y="196" font-size="15" fill="#222222" font-weight="bold" text-anchor="middle">大功能：寫成 spec，拆成 ticket</text>
+<path d="M792 192 L848 192" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="850" y="150" width="230" height="84" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="965.0" y="170" font-size="12" fill="#555555" text-anchor="middle">34:48</text>
+<text x="965.0" y="195" font-size="17" fill="#222222" font-weight="bold" text-anchor="middle" font-family="Menlo, Consolas, monospace">implement-spec</text>
+<text x="965.0" y="217" font-size="12" fill="#555555" text-anchor="middle">平行子 agent，各在 worktree</text>
+<path d="M792 67 L1100 67 L1100 342 L1083 342" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<path d="M965 236 L965 298" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="850" y="300" width="230" height="84" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="965.0" y="320" font-size="12" fill="#555555" text-anchor="middle">37:31</text>
+<text x="965.0" y="345" font-size="17" fill="#222222" font-weight="bold" text-anchor="middle">code review</text>
+<text x="965.0" y="367" font-size="12" fill="#555555" text-anchor="middle">spec review、standards review</text>
+<path d="M848 342 L812 342" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="600" y="300" width="210" height="84" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="705.0" y="320" font-size="12" fill="#555555" text-anchor="middle">40:20</text>
+<text x="705.0" y="345" font-size="17" fill="#222222" font-weight="bold" text-anchor="middle">人工審查</text>
+<text x="705.0" y="367" font-size="12" fill="#555555" text-anchor="middle">看 merge danger</text>
+<path d="M598 342 L562 342" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="440" y="312" width="120" height="60" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="500.0" y="332" font-size="12" fill="#555555" text-anchor="middle">43:58</text>
+<text x="500.0" y="358" font-size="17" fill="#222222" font-weight="bold" text-anchor="middle">merge</text>
+<path d="M438 342 L402 342" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="170" y="300" width="230" height="84" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="285.0" y="320" font-size="12" fill="#555555" text-anchor="middle">42:34</text>
+<text x="285.0" y="345" font-size="17" fill="#222222" font-weight="bold" text-anchor="middle" font-family="Menlo, Consolas, monospace">retro</text>
+<text x="285.0" y="367" font-size="12" fill="#555555" text-anchor="middle">把檢討寫回 standards 與自動檢查</text>
+<path d="M285 298 L285 222" stroke="#666" stroke-width="2.5" fill="none" stroke-dasharray="6 4" marker-end="url(#ah)"/>
+</svg>

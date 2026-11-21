@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 430" width="480" height="430" role="img" font-family="PingFang TC, Noto Sans TC, Microsoft JhengHei, sans-serif">
+<title>合併後的改動：雙向門與單向門，影響範圍小或大</title>
+<desc>二乘二表：欄是影響範圍（範圍小、範圍大），列是改動型態（雙向門：合併後還能回來；單向門：走不回頭，例如資料遺失、寄出十萬封信）。雙向門且範圍小：不必審太細，可直接上線測；單向門且範圍大：要審，不一定逐行，設法把它弄壞；雙向門且範圍大、單向門且範圍小兩格，影片沒有談到（灰色虛線框）。merge danger 的判斷出現在影片 40:50–41:41。</desc>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#444"/></marker></defs>
+<rect width="480" height="430" fill="#fbfaf7"/>
+<text x="222.0" y="44" font-size="16" fill="#222222" font-weight="bold" text-anchor="middle">範圍小</text>
+<text x="390.0" y="44" font-size="16" fill="#222222" font-weight="bold" text-anchor="middle">範圍大</text>
+<rect x="10" y="64" width="124" height="150" rx="8" fill="#f0efe9" stroke="#c9c8c0" stroke-width="1.5"/>
+<text x="20" y="133.4" font-size="14" fill="#222222" font-weight="bold" text-anchor="start"><tspan x="20" y="133.4">雙向門（合併後</tspan><tspan x="20" y="154.4">還能回來）</tspan></text>
+<rect x="142" y="64" width="160" height="150" rx="8" fill="#ffffff" stroke="#4f8a5b" stroke-width="3"/>
+<text x="222.0" y="133.4" font-size="14" fill="#222222" font-weight="bold" text-anchor="middle"><tspan x="222.0" y="133.4">不必審太細，可直</tspan><tspan x="222.0" y="154.4">接上線測</tspan></text>
+<rect x="310" y="64" width="160" height="150" rx="8" fill="#e8e8e4" stroke="#8c8b84" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="390.0" y="143.9" font-size="14" fill="#555555" text-anchor="middle">影片沒有談到</text>
+<rect x="10" y="226" width="124" height="150" rx="8" fill="#f0efe9" stroke="#c9c8c0" stroke-width="1.5"/>
+<text x="20" y="274.4" font-size="14" fill="#222222" font-weight="bold" text-anchor="start"><tspan x="20" y="274.4">單向門（走不回</tspan><tspan x="20" y="295.4">頭，例如資料遺</tspan><tspan x="20" y="316.4">失、寄出十萬封</tspan><tspan x="20" y="337.4">信）</tspan></text>
+<rect x="142" y="226" width="160" height="150" rx="8" fill="#e8e8e4" stroke="#8c8b84" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="222.0" y="305.9" font-size="14" fill="#555555" text-anchor="middle">影片沒有談到</text>
+<rect x="310" y="226" width="160" height="150" rx="8" fill="#ffffff" stroke="#d9822b" stroke-width="3"/>
+<text x="390.0" y="295.4" font-size="14" fill="#222222" font-weight="bold" text-anchor="middle"><tspan x="390.0" y="295.4">要審；不一定逐行，</tspan><tspan x="390.0" y="316.4">設法把它弄壞</tspan></text>
+<text x="470" y="406" font-size="12" fill="#555555" text-anchor="end">merge danger 的判斷，時間 40:50–41:41</text>
+</svg>
