@@ -22,8 +22,8 @@ sources:
 
 > 本導讀的分析與撰稿由 AI 模型完成，不是人類分析，也沒有經過人工逐句校稿，見〈製作說明〉。
 
-![插畫：夜裡的書桌，一疊舊書旁攤著手寫的卡片與一盞檯燈，遠處一排小房間只有幾間亮著燈](images/hero-16x9.webp)
-*圖說：AI 以程式繪製的示意插畫；圖內沒有文字，也不是影片畫面。*
+![插畫：夜裡的書桌，檯燈暖光下一疊舊書與幾張手繪卡片，窗外遠處的公寓只有幾扇窗亮著燈](images/hero-16x9.webp)
+*圖說：AI 生成的示意插畫；圖內沒有文字，也不是影片畫面。*
 
 主持人 NetworkChuck（下稱 Chuck）一開場就把全片的問題丟出來：現在還有人需要學特定的程式語言嗎？（[00:02](https://www.youtube.com/watch?v=mU8WKII1gpk&t=2s)）來賓 Matt Pocock 答「不用」，還說軟體工程一直比大家想的容易（[00:04](https://www.youtube.com/watch?v=mU8WKII1gpk&t=4s)）。接下來兩個小時，他把這句話拆成一套做法：**AI 擅長眼前的任務，長遠的結構要人來顧**。怎麼顧？把自己對好程式碼的看法，寫進 agent（能自己讀檔、改程式的 AI 助手）工作的環境，再靠自動檢查、人工審查與事後回顧，一輪輪收緊。他整場一直回到同一個字：care，在意。
 
@@ -175,6 +175,9 @@ Chuck 問軟體工廠是什麼。Matt 說他的詞典收了這個詞，但他沒
 
 他做的影片剪輯器也在這時談到。因為討厭剪片，他錄影時留空檔，系統自動切段，轉錄成一個個片段。之後專案逐步長出圖表工具、提詞機、AI 寫腳本與動畫預演。專案已有約 2,500 個 commit（一次存進版本紀錄的改動），是他試驗想法的遊樂場（[1:48:43](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6523s)、[1:49:57](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6597s)）。規劃一堂課時，他會把學習目標印成小卡，離開電腦和 AI，在桌上排來排去幾小時。因為與 agent 對話時，思考會被它的回應速度打斷（[1:53:29](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6809s)、[1:55:42](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6942s)）。
 
+![插畫：俯視的木桌，散著十幾張寫著潦草線條與小方框的索引卡，旁邊有一部闔上的筆電、一杯茶和一支鉛筆](images/cards-16x9.webp)
+*圖說：AI 生成的示意插畫，對應他離開螢幕、用小卡排規劃的做法；圖內沒有文字，也不是影片畫面。*
+
 ## 收尾：他覺得知識工作比寫程式難
 
 談到把 agent 用在生活，Matt 說自己仍在找適合的介面，每天開一次「站立會議」，並用手錶口述待辦（[1:57:12](https://www.youtube.com/watch?v=mU8WKII1gpk&t=7032s)、[1:57:17](https://www.youtube.com/watch?v=mU8WKII1gpk&t=7037s)）。他的判斷是：**知識工作比寫程式難得多，因為寫程式可以驗證**。用自動檢查，就知道輸出是否正確；但規劃一堂課，你怎麼知道比兩個月前的更好？（[1:58:09](https://www.youtube.com/watch?v=mU8WKII1gpk&t=7089s)、[1:58:25](https://www.youtube.com/watch?v=mU8WKII1gpk&t=7105s)）他也說，這可能是因為自己比較懂程式。對談尾聲，兩人都說想把某些事留給人：不要 AI 圖、不要 AI 音樂、桌遊裡不要 agent（[1:59:57](https://www.youtube.com/watch?v=mU8WKII1gpk&t=7197s)、[2:00:01](https://www.youtube.com/watch?v=mU8WKII1gpk&t=7201s)）。不過字幕沒有說話者標記，哪句是誰說的無法確定。
@@ -210,7 +213,7 @@ Chuck 問軟體工廠是什麼。Matt 說他的詞典收了這個詞，但他沒
 
 ## 製作說明：這篇導讀由 AI 模型完成
 
-本導讀的分析、撰稿、翻譯、查證與插圖皆由 AI 模型完成，不是人類分析，也沒有經過人工逐句校稿。分工如下：主控與撰稿為 Claude Sonnet 5.5；字幕翻譯先由 agy 的 gemini-3.8-flash-medium 完成，再由 Claude Sonnet 逐章修詞、Claude Opus 統一審查；查證由 Claude Opus 對照官方文件、原始 repo 與第一手來源；獨立審稿由兩位 Claude Opus 分別完成事實核對與編輯審閱，最後再由一位 Opus 依總編輯準則潤稿並標示重點；封面插畫與所有圖解皆由 Claude Sonnet 撰寫 SVG 程式繪製。英文來源是 YouTube 的機器字幕，未對照原音，可能有誤聽；重要說法須有兩方以上的查證與一手來源，只有單方的說法已降級標示。全文譯本見 [translation-zh.html](translation-zh.html)，字幕同步播放器見 [player.html](player.html)。
+本導讀的分析、撰稿、翻譯、查證與插圖皆由 AI 模型完成，不是人類分析，也沒有經過人工逐句校稿。分工如下：主控與撰稿為 Claude Sonnet 5.5；字幕翻譯先由 agy 的 gemini-3.8-flash-medium 完成，再由 Claude Sonnet 逐章修詞、Claude Opus 統一審查；查證由 Claude Opus 對照官方文件、原始 repo 與第一手來源；獨立審稿由兩位 Claude Opus 分別完成事實核對與編輯審閱，最後再由一位 Opus 依總編輯準則潤稿並標示重點；封面與小卡片插畫由 Codex 的 imagegen 生成，其餘圖解由 Claude Sonnet 撰寫 SVG 程式繪製。英文來源是 YouTube 的機器字幕，未對照原音，可能有誤聽；重要說法須有兩方以上的查證與一手來源，只有單方的說法已降級標示。全文譯本見 [translation-zh.html](translation-zh.html)，字幕同步播放器見 [player.html](player.html)。
 
 ## 來源清單
 
