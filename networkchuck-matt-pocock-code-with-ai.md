@@ -63,6 +63,9 @@ Chuck 請 Matt 現場示範。Matt 打開自己的 repo（存放專案程式碼�
 
 他的理由是，人與 agent 之間有一道溝通落差。agent 像一個被丟進陌生環境、毫無記憶的開發者，就像電影《記憶拼圖》（Memento）的主角（[17:09](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1029s)、[17:14](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1034s)）。多數人直接下指令，agent 就一路說「聽起來不錯」，然後用猜的。結果它做出你希望的東西，而不是你要的東西；**逼它發問，才有機會得到你要的**（[17:24](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1044s)、[17:37](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1057s)）。他教書十四年，很擅長看人懂不懂，仍會因為鬆懈給出不夠清楚的提示。**這個落差不會隨模型變聰明而消失，因為出問題的是人這一端**（[18:30](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1110s)、[18:54](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1134s)）。
 
+![示意圖：左邊的你只知道一部分想要什麼，右邊的 agent 沒有記憶、從空白開始，中間是溝通落差；下方兩條路，直接下指令時 agent 一路猜、做出你希望的東西，先讓 agent 追問則一題一題問清楚、才有機會得到你要的](images/fig-gap-zh.svg)
+*圖說：依 [17:09](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1029s) 至 [17:37](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1057s) 的說明繪製的示意圖，不是他的畫面。*
+
 ### 術語表與 ADR
 
 grill-with-docs 比 grill-me 多的是「docs」。它在追問之外，還會叫用 domain-modeling，也就是術語表加上架構決策紀錄（ADR）（[20:08](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1208s)、[20:22](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1222s)）。術語表是他和 agent 六個月來累積的詞彙，課程、章節、課程版本、課、草稿與待定版本各有定義（[15:20](https://www.youtube.com/watch?v=mU8WKII1gpk&t=920s)、[19:24](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1164s)）。ADR 則記下某個設計當初為什麼這樣決定。**ADR 記的是程式碼記不住的過去**：程式碼只呈現目前的樣子；沒有紀錄，agent 會一直重複犯同樣的錯。他說自己的 repo 約有 31 份，專記難以反悔的決定（[20:35](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1235s)、[21:04](https://www.youtube.com/watch?v=mU8WKII1gpk&t=1264s)）。
@@ -166,6 +169,9 @@ Chuck 問那些過去由 DevOps（負責部署與維運系統的工作）做的�
 ### 軟體工廠與剪輯器
 
 Chuck 問軟體工廠是什麼。Matt 說他的詞典收了這個詞，但他沒有打開來看。他的口頭解釋是：在需要人介入的環節裡，盡量把人拿掉。例如新 issue 或資料庫變慢的警示，會觸發 agent，由 agent 決定要不要動工；甚至也許可以只讓單向門經過人審，其他由 agent 自己合併（[1:44:49](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6289s)、[1:45:32](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6332s)、[1:46:09](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6369s)）。代價是**越加速越需要煞車，否則會變成「slop 噴射器」**（[1:46:31](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6391s)）。他說這其實是 loop engineering 換個名字（[1:47:07](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6427s)）。
+
+![流程圖：觸發（新 issue、資料庫變慢的警示）、agent 決定要不要動工、實作、審查（也許只讓單向門經過人審）、agent 自己合併；觸發與審查原本由人介入；底部寫著越加速越需要煞車，否則會變成 slop 噴射器](images/fig-factory-zh.svg)
+*圖說：依 Matt 的口頭解釋（[1:44:49](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6289s) 至 [1:46:09](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6369s)）繪製，不是詞典條目的定義。*
 
 他做的影片剪輯器也在這時談到。因為討厭剪片，他錄影時留空檔，系統自動切段，轉錄成一個個片段。之後專案逐步長出圖表工具、提詞機、AI 寫腳本與動畫預演。專案已有約 2,500 個 commit（一次存進版本紀錄的改動），是他試驗想法的遊樂場（[1:48:43](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6523s)、[1:49:57](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6597s)）。規劃一堂課時，他會把學習目標印成小卡，離開電腦和 AI，在桌上排來排去幾小時。因為與 agent 對話時，思考會被它的回應速度打斷（[1:53:29](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6809s)、[1:55:42](https://www.youtube.com/watch?v=mU8WKII1gpk&t=6942s)）。
 

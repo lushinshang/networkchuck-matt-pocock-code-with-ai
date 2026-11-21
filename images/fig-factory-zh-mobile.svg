@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 790" width="480" height="790" role="img" font-family="PingFang TC, Noto Sans TC, Microsoft JhengHei, sans-serif">
+<title>agent 自己跑的流程與煞車</title>
+<desc>流程由左到右：觸發（新 issue、資料庫變慢的警示）、agent 決定要不要動工、實作、審查（也許只讓單向門經過人審）、agent 自己合併。觸發與審查以虛線框標示，是原本由人介入的節點。圖頂標示 Matt 的口頭解釋 1:44:49–1:46:09。圖底橫幅：越加速越需要煞車，否則會變成 slop 噴射器（1:46:31）。</desc>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#444"/></marker></defs>
+<rect width="480" height="790" fill="#fbfaf7"/>
+<text x="240.0" y="32" font-size="13" fill="#555555" text-anchor="middle">Matt 的口頭解釋 1:44:49–1:46:09</text>
+<rect x="20" y="54" width="440" height="76" rx="8" fill="#fff7ec" stroke="#d9822b" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="240.0" y="86" font-size="18" fill="#222222" font-weight="bold" text-anchor="middle">觸發</text>
+<text x="240.0" y="110" font-size="14" fill="#555555" text-anchor="middle">新 issue、資料庫變慢的警示</text>
+<path d="M240 132 L240 156" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="20" y="158" width="440" height="76" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="240.0" y="202.3" font-size="18" fill="#222222" font-weight="bold" text-anchor="middle">agent 決定要不要動工</text>
+<path d="M240 236 L240 260" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="20" y="262" width="440" height="76" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="240.0" y="306.3" font-size="18" fill="#222222" font-weight="bold" text-anchor="middle">實作</text>
+<path d="M240 340 L240 364" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="20" y="366" width="440" height="76" rx="8" fill="#fff7ec" stroke="#d9822b" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="240.0" y="398" font-size="18" fill="#222222" font-weight="bold" text-anchor="middle">審查</text>
+<text x="240.0" y="422" font-size="14" fill="#555555" text-anchor="middle">也許只讓單向門經過人審</text>
+<path d="M240 444 L240 468" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="20" y="470" width="440" height="76" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="240.0" y="514.3" font-size="18" fill="#222222" font-weight="bold" text-anchor="middle">agent 自己合併</text>
+<rect x="20" y="570" width="40" height="18" rx="4" fill="#fff7ec" stroke="#d9822b" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="72" y="584" font-size="14" fill="#222222" text-anchor="start">原本由人介入的節點</text>
+<rect x="20" y="614" width="440" height="90" rx="10" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="1"/>
+<text x="240" y="652" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle">越加速越需要煞車，否則會變成 slop 噴射器</text>
+<text x="444" y="692" font-size="12" fill="#c9d3e3" text-anchor="end">1:46:31</text>
+</svg>

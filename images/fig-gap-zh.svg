@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 570" width="1000" height="570" role="img" font-family="PingFang TC, Noto Sans TC, Microsoft JhengHei, sans-serif">
+<title>你與 agent 之間的溝通落差</title>
+<desc>上方左右兩個方塊人形：左邊是你，知道一部分想要什麼；右邊是 agent，沒有記憶，從空白開始；中間一條虛線標溝通落差（影片 17:09）。下方兩條路並排：左路直接下指令，agent 一路猜，說聽起來不錯，做出你希望的東西（17:24）；右路讓 agent 先追問，一題一題把想法問清楚，才有機會得到你要的（17:37）。</desc>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#444"/></marker></defs>
+<rect width="1000" height="570" fill="#fbfaf7"/>
+<text x="500.0" y="30" font-size="13" fill="#555555" text-anchor="middle">17:09</text>
+<circle cx="210" cy="66" r="15" fill="#ffffff" stroke="#d9822b" stroke-width="2.5"/>
+<rect x="60.0" y="90" width="300" height="96" rx="14" fill="#ffffff" stroke="#d9822b" stroke-width="2.5"/>
+<text x="210" y="130" font-size="24" fill="#222222" font-weight="bold" text-anchor="middle">你</text>
+<text x="210" y="158" font-size="15" fill="#555555" text-anchor="middle">知道一部分想要什麼</text>
+<circle cx="790" cy="66" r="15" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<rect x="640.0" y="90" width="300" height="96" rx="14" fill="#ffffff" stroke="#1f3a5f" stroke-width="2.5"/>
+<text x="790" y="130" font-size="24" fill="#222222" font-weight="bold" text-anchor="middle">agent</text>
+<text x="790" y="158" font-size="15" fill="#555555" text-anchor="middle">沒有記憶，從空白開始</text>
+<text x="500.0" y="132" font-size="17" fill="#d9822b" font-weight="bold" text-anchor="middle">溝通落差</text>
+<path d="M372 150 L628 150" stroke="#c0392b" stroke-width="3" fill="none" stroke-dasharray="6 4" marker-end="url(#ah)" marker-start="url(#ah)"/>
+<path d="M40 250 L960 250" stroke="#c9c8c0" stroke-width="2" fill="none" stroke-dasharray="6 4"/>
+<rect x="60" y="280" width="400" height="64" rx="8" fill="#ffffff" stroke="#d9822b" stroke-width="2.5"/>
+<text x="260.0" y="300" font-size="12" fill="#555555" text-anchor="middle">17:24</text>
+<text x="260.0" y="326" font-size="18" fill="#222222" font-weight="bold" text-anchor="middle">直接下指令</text>
+<path d="M260.0 346 L260.0 370" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="60" y="372" width="400" height="64" rx="8" fill="#ffffff" stroke="#d9822b" stroke-width="2.5"/>
+<text x="260.0" y="410.3" font-size="18" fill="#222222" font-weight="bold" text-anchor="middle">agent 一路猜，說聽起來不錯</text>
+<path d="M260.0 438 L260.0 462" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="60" y="464" width="400" height="64" rx="8" fill="#ffffff" stroke="#d9822b" stroke-width="2.5"/>
+<text x="260.0" y="502.3" font-size="18" fill="#222222" font-weight="bold" text-anchor="middle">做出你希望的東西</text>
+<rect x="540" y="280" width="400" height="64" rx="8" fill="#ffffff" stroke="#4f8a5b" stroke-width="2.5"/>
+<text x="740.0" y="300" font-size="12" fill="#555555" text-anchor="middle">17:37</text>
+<text x="740.0" y="326" font-size="18" fill="#222222" font-weight="bold" text-anchor="middle">讓 agent 先追問</text>
+<path d="M740.0 346 L740.0 370" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="540" y="372" width="400" height="64" rx="8" fill="#ffffff" stroke="#4f8a5b" stroke-width="2.5"/>
+<text x="740.0" y="410.3" font-size="18" fill="#222222" font-weight="bold" text-anchor="middle">一題一題把想法問清楚</text>
+<path d="M740.0 438 L740.0 462" stroke="#444" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+<rect x="540" y="464" width="400" height="64" rx="8" fill="#ffffff" stroke="#4f8a5b" stroke-width="2.5"/>
+<text x="740.0" y="502.3" font-size="18" fill="#222222" font-weight="bold" text-anchor="middle">才有機會得到你要的</text>
+</svg>
